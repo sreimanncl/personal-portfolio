@@ -1,0 +1,67 @@
+@media (min-width: 766px) {
+  header {
+    display: flex;
+    padding: 20px 0;
+  }
+  .header--photos {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .header--photos .ph1 {
+    margin: 0;
+    width: 250px;
+    height: auto;
+    padding: 0;
+    border: none;
+  }
+  .header--title-container {
+    width: 300px;
+    height: auto;
+    border: none;
+  }
+  .title-box {
+    width: 100%%;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+  }
+  #about-me {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+  ul {
+    width: 250px;
+    height: auto;
+    margin: 0px auto;
+    align-self: center;
+    list-style: none;
+    font-size: 23px;
+  }
+  ul li {
+  }
+  .cv {
+    width: 250px;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+   main #services {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+  }
+  main #services .services--dg {
+    margin: 0 auto;
+  }
+  #services .services--dev {
+    margin: 0;
+  }
+  #education {
+    display: flex;
+    margin: 0;
+    padding: 20px 0;
+  }
+}
