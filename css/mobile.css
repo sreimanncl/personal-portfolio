@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 
 :root {
-  --background-one: #363636;
-  --background-two: #434343;
+  --dark-mode: #363636;
+  --light-mode: #fff;
   --color-text: #fff;
+  --text-front: aqua;
 }
 *{
   box-sizing: border-box;
@@ -11,110 +12,76 @@
   padding: 0;
 }
 html {
+  background-color: var(--dark-mode);
   color: var(--color-text);
-  font-size: 92.2%;dvz 
+  font-size: 92.2%;
   font-family: 'Open Sans', sans-serif;
 }
-.title-box {
-  width: 100%%;
-  padding: 10px;
-  text-align: center;
-  background-color: black;
-}
-
 header {
   text-align: center;
-  background-color: #363636;
   width: 100%;
   min-width: 288px;
   height: auto;
-  padding: 20px 0;
+  padding: 5px 0;
   }
-  .header--photos {
-
+header img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 500px;
 }
-.header--photos .ph1 {
-  border: 2px solid black;
-  border-radius: 85px;
-  width: 150px;
-  
-}
-.header--title-container{
-  width: 250px;
-  margin: 0  auto;
-  padding: 10px;
-  border: solid #000527 2px;
-  align-self: center;
-  text-align: center;
-  margin-top: 25px;
-}
-.header--title-container ul {
-  margin: 10px 0;
-}
-.header--title-container ul li{
-  list-style: none;
-}
-.header--title-container ul a {
-  text-decoration: none;
-  padding: 10px;
-  color: gray;
+.front {
+  color: var(--text-front);
   font-size: 16px;
-  font-weight: bolder;
-  padding: 10px;
 }
-button{
-  height: 33px;
-  background-color: #363636;
-  padding: 10px;
-  margin-top: 10px;
-  border:  #000527 solid 2px;
-  font-weight:bold;
-  text-decoration: none;
-}
-.header--title-container h1{
+h1{
   font-size: 25px;
   font-weight: bold;
-  
 }
-.header--title-container h3{
-  margin-top: 15px;
+nav {
+  margin: 10px auto;
 }
-h2 {
-  font-size: 20px ;
+nav ul{
+  justify-content: center;
+  list-style: none;
 }
-main #services{
-  background-color: #434343;
-  min-width: 288px;
-  text-align: center;
-  padding: 20px 0;
+nav ul li {
+  padding: 10px;
+}
+nav ul li a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #000527;
+  border-radius: 10px      ;
+  padding: 10px;
+  background-color: var(--text-front);
 }
 main  {
   margin: 0;
   min-width: 288px;
 }
 #about-me {
-  background-color: #363636;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 250px;
+  margin: 0 auto;
+}
+main #services{
+  min-width: 288px;
   text-align: center;
   padding: 20px 0;
 }
-ul {
-  width: 250px;
-  height: auto;
-  margin: 0px auto;
-  align-self: center;
-  list-style: none;
-  font-size: 23px;
+button{
+  background-color: var(--text-front);
+  padding: 7px;
+  margin: 10px 0;
 }
-ul li {
+.title-box {
+  border-top: 1px solid aqua;
+  border-bottom: 1px solid aqua;
 }
-.cv {
-  width: 250px;
-  height: auto;
-  margin: 0px auto;
-  border-radius: 5px;
-  text-align: center;
-}
-
 main #services .services--dg {
   width: 250px;
   height: auto;
@@ -130,18 +97,20 @@ main #services .services--dev {
   border: yellowgreen 2px solid;
   width: 250px;
   height: auto;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pic-frontend {
+  width: 150px;
 }
 #project  {
   text-align: center;
-  background-color: #363636;
   width: 100%;
   min-width: 288px;
   height: auto;
   padding: 20px 0;
   }
 #education {
-  background-color: #363636;
   margin: 0;
   min-width: 288px;
   padding: 20px 0;
@@ -164,15 +133,13 @@ main #services .services--dev {
   margin: 5px auto;
 }
 .contact {
-  background-color: #434343;
-  height: 100%;
-  padding: 20px 0;
-}
-.contact form {
-  border: #000527 2px solid;
-  padding: 10px 25px;
-  width: 250px;
+  width: 200px;
   margin: 0 auto;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+}
+.contact form label {
+  
 }
 h3 {
   padding: 10px;
@@ -182,40 +149,37 @@ h3 {
   padding: 2px;
   width: 200px;
   margin: 2px auto;
-}
-#box-msje {
+}#box-msje {
   width: 200px;
   height: 90px;
 
 }
 footer {
-  background-color: #363636;
   padding: 20px 0;
   height: auto;
 }
 .social-link {
   justify-content: center;
-  border:  black solid 2px;
   width: 250px;
   margin: 0 auto;
   height: 100%;
   display: flex;
 }
-footer .social-link .linkedin {
-  width: 50px;
-  height: 50px;
+.social-link .linkedin {
+  width: 30px;
+  height: 30px;
   margin: 10px;
   background-image: url(../images/linkedin.svg);
 }
-footer .social-link .github {
+.social-link .github {
   background-image: url(../images/github.svg);
   margin: 10px;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
-footer .social-link .instagram {
+.social-link .instagram {
   background-image: url(../images/instagram.svg);
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin: 10px;
 }
