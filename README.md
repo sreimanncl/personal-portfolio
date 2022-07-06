@@ -1,2 +1,3 @@
 # personal-portfolio
-Al my knowledge of the technological world
+portafolio personal de sebbastian reimann de de chile
+con lo aprendido del mundo tecnologico

@@ -4,42 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sebastian Reimann - Perfil estudiante - PLATZI</title>
-    <link rel="stylesheet" href="./CSS/mobile.css">
+    <title>Portafolio personal--Sebastian Reimann</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/mobile-L.css">
     <link rel="stylesheet" href="./css/tablet.css">
 </head>
 <body>
 
-      <header>
+      <header id="header">
             <img class="img" " src="./images/yo.jpg" alt="">
                 <h1>Sebastian Reimann</h1>
                 <h2 class="front">Desarrollador Front End</h2>
                 <nav>
                   <ul>
-                    <li> <a href="#">Sobre mi</a></li>
-                    <li> <a href="#">Mis conocimentos</a></li>
-                    <li> <a href="#">Mis proyectos</a></li>
-                    <li> <a href="#">Mis estudios</a></li>
-                    <li> <a href="#">Contactame</a></li>
+                    <li> <a href="#services">Conocimentos</a></li>
+                    <li> <a href="#project">Proyectos</a></li>
+                    <li> <a href="#education">Estudios</a></li>
+                    <li> <a href="#contact">Contactame</a></li>
                   </ul>
                 </nav>
       </header>
 
         <main> 
           <div class="title-box">
-            <h3>Acerca de:</h3>
+            <h3>Sobre mi</h3>
           </div>
 
           
           <section id="about-me">
-              <p>Soy una persona autodidacta, <br> con pasion por el aprendizaje <br> y el codigo web.</p>
+            <div class="about-me--container">
+              <p>Soy una persona autodidacta, con pasion por el aprendizaje y el codigo web.</p>
               <button>Descargar CV</button>
               <p>Me puedes seguir en mis redes sociales</p>
               <section class="social-link">
-                <div class="linkedin"></div>
-                <div class="github"></div>
-                <div class="instagram"></div>
-              </section>
+                <a href="https://github.com/sreimanncl" target="__blank">
+                  <img class="github" src="/images/github.svg" alt="Github">
+                </a>
+                <a href="https://www.linkedin.com/in/sreimanncl" target="__blank">
+                  <img class="linkedin" src="/images/linkedin.svg" alt="Linkedin">
+                </a>
+                <a href="https://www.instagram.com/sreimanncl/"  target="__blank" >
+                  <img class="instagram" src="/images/instagram.svg" alt="Instagram">
+                </a>
+
+            </div>
     
           </section>
 
@@ -67,6 +79,14 @@
                 </p>
               </div>
 
+              <div class="services--mkt">
+                <h4>MercadoTecnia</h4> <br>
+                <p>UX/UI <br>
+                  S.E.O 
+                </p>
+              </div>
+
+
             </section>
 
             <div class="title-box">
@@ -74,12 +94,18 @@
             </div>
   
             <section id="project">
-              <div class="project--img">
-                <img src="/images/st.png" alt="logo-st">
-              </div>
-
-              <div class="project-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit montes elementum etiam lacinia, metus egestas facilisi varius vivamus quis lacus dis lobortis vitae, felis aptent in nunc penatibus parturient luctus ultricies condimentum litora. Posuere eget lectus risus purus accumsan curabitur hendrerit class tincidunt, dignissim nec elementum montes proin torquent condimentum convallis vulputate, praesent gravida vel mus neque aenean pulvinar cras. Ultricies viverra ligula varius ridiculus purus sociis egestas nec ut et, ullamcorper leo hac porttitor libero nostra orci tellus quam phasellus parturient, odio aenean feugiat convallis proin fermentum nullam id augue. Ligula in interdum fusce risus inceptos porttitor nunc vivamus sociis eget, mollis quam et penatibus dapibus euismod eleifend dictum nascetur posuere, purus cras blandit congue aenean rutrum aliquet eu praesent.</p>
+              <div class="project--ecommerce">
+                <div class="project--img">
+                  <img src="/images/st.png" alt="logo-st">
+                </div>
+  
+                <div class="project-text">
+                  <h3>Tienda en linea</h3>
+                  <p>los conocimientos para desarrollar este sito fueron:
+                    HTML5, CSS3 con diseño responsivo para movil, tablet y desktop...  <a href="#">Seguir leyendo</a>
+                  </p>
+                </div>
+  
               </div>
             </section>
             
@@ -90,15 +116,19 @@
             <section id="education">
               <div class="ed1">
                 <img src="/images/st.png" alt="logo-st">
-                <h4>Instituto profesional</h4>
-                <h3>Santo tomas</h3>
-                <h5>Valdivia/Chile</h5>
+                <h3>2018 - 2019</h3>
+                <h4>Carrera: Diseño grafico</h4> <br>
+                <h4>Instituto profesional <br> Santo tomas</h4>
+                 <br><h5>Valdivia/Chile</h5>
               </div>
 
               <div class="ed2">
-                <img src="/images/platzi.png" alt="logo-platzi">
-                <h4>Escuela tecnologica online</h4>
-                <h3>Platzi</h3>
+                <a href="https://platzi.com/p/sreimanncl" target="__blank">
+                  <img src="/images/platzi.png" alt="logo-platzi">
+                </a>
+                <h3>2020 - 2022</h3>
+                <h4>carrera: Desarrollo web</h4> <br>
+                <h4>Escuela tecnologica en linea <br> Platzi</h4> <br>
                 <h5>Bogota/Colombia</h5>
               </div>
             </section>
@@ -107,15 +137,22 @@
               <h3>Contactame</h3>
             </div>
 
-            <section class="contact">
-              
+            <section id="contact">              
               <form class="msj">
-                <label>Enviame un mensaje para trabajar conmigo.</label> <br>
-                <input type="text" placeholder="Nombre">
-                <input type="email" name="" id="" placeholder="correo electronico" >
-                 <input type="text" placeholder="Sitio web" >
-                 <input type="text" id="box-msje" class="box-msje" placeholder="mensaje">  
-                <input type="submit" value="Enviar mensaje">
+                <label for="name">
+                  <span>Enviame un mensaje para trabajar conmigo.</span>
+                  <input type="text" name="namr" placeholder="Nombre" autocomplete="name" required>
+                </label>
+                <label for="email">
+                  <input type="email" name="email" id="" placeholder="correo electronico" autocomplete="email" required>
+                </label>
+                <label for="web">
+                  <input type="text" placeholder="Sitio web (Opcional)" name="web" autocomplete="web" >
+                </label>
+                <label for="msje">
+                  <input type="text" id="box-msje" class="box-msje" placeholder="mensaje" name="msje" required>  
+                </label>
+                  <input type="submit" value="Enviar mensaje">
               </form>
               
             </section>  
@@ -125,7 +162,11 @@
 
         <footer>
 
-          <h3>Sigueme en mis redes sociales</h3>
+          <h3>portafolio desarrollado por S.R</h3>
+          <a href="#header">Volver arriba
+
+
+          </a>
 
         </footer>
 </body>
