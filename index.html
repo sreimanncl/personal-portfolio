@@ -16,17 +16,19 @@
 <body>
 
       <header id="header">
-            <img class="img" " src="./images/yo.jpg" alt="">
-                <h1>Sebastian Reimann</h1>
-                <h2 class="front">Desarrollador Front End</h2>
-                <nav>
-                  <ul>
-                    <li> <a href="#services">Conocimentos</a></li>
-                    <li> <a href="#project">Proyectos</a></li>
-                    <li> <a href="#education">Estudios</a></li>
-                    <li> <a href="#contact">Contactame</a></li>
-                  </ul>
-                </nav>
+        <figure class="img">
+          <img src="./images/yo.jpg" alt="">
+        </figure>
+        <h1>Sebastian Reimann</h1>
+        <h2 class="front">Desarrollador Front End</h2>
+        <nav>
+          <ul>
+            <li> <a href="#services">Conocimentos</a></li>
+            <li> <a href="#project">Proyectos</a></li>
+            <li> <a href="#education">Estudios</a></li>
+            <li> <a href="#contact">Contactame</a></li>
+          </ul>
+        </nav>
       </header>
 
         <main> 
@@ -146,6 +148,9 @@
                 <label for="email">
                   <input type="email" name="email" id="" placeholder="correo electronico" autocomplete="email" required>
                 </label>
+                <label for="country">
+                  <input type="text" name="country" autocomplete="country" placeholder="Nacionalidad" requir> 
+                </label>
                 <label for="web">
                   <input type="text" placeholder="Sitio web (Opcional)" name="web" autocomplete="web" >
                 </label>
@@ -163,10 +168,9 @@
         <footer>
 
           <h3>portafolio desarrollado por S.R</h3>
-          <a href="#header">Volver arriba
-
-
-          </a>
+          <button type="submit" href="#header">
+            Volver arriba
+          </button>
 
         </footer>
 </body>
