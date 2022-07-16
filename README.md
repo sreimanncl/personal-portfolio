@@ -3,7 +3,9 @@ portafolio personal de sebbastian reimann de chile
 con lo aprendido del desarrollo web
 
 
-html. css
+html
+-semantico
+-accesibildad web
 
-semantico
-media queries para mobile. mobile L y tablet
+CSS
+-media queries para mobile. mobile L, tablet y desktop

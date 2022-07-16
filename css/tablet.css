@@ -1,53 +1,76 @@
-@media (min-width: 768px) {
-    header {
-      
-      padding: 20px 0;
+@media (min-width: 767px) {
+  header {
+    
+    padding: 20px 0;
+  }
+  .header--photos {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .header--photos .ph1 {
+    margin: 0;
+    width: 250px;
+    height: auto;
+    padding: 0;
+    border: none;
+  }
+  nav {
+    margin: 5px auto;
+  }
+  ul {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  ul li {
+    border: 1px var(--text-front) solid;
+    margin: 0 5px;
+    border-radius: 10px;
+  }
+  main #about-me  {
+    width: 100%;
+  }
+  .about-me--container {
+    width: 500px;
+  }
+  #services {
+    width: 100%;
+  }
+  main #services .services--dg {
+    width: 500px;
+  }
+  main #services .services--dev {
+    width: 500px;
+  }
+  main #services .services--mkt {
+    width: 500px;
+  }
+  main #services .services--language {
+    width: 500px;
+  }
+  main #project .project--ecommerce {
+    width: 500px;
+  }
+  #education {
+    margin: 0;
+  }
+  .ed1 {
+    width: 500px;
+  }
+  .ed2 {
+    width: 500px;
+  }
+   .msj {
+    width: 500px;
     }
-    .header--photos {
-      width: 250px;
-      margin: 0 auto;
-    }
-    .header--photos .ph1 {
-      margin: 0;
-      width: 250px;
-      height: auto;
-      padding: 0;
-      border: none;
-    }
-    ul {
-      font-size: 15px;
-      display: flex;
-    }
-    ul li {
-      border: 1px var(--text-front) solid;
-      border-radius: 10px;
-    }
-    main #about-me  {
-      width: 430px;
-    }
-    main #services {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0 51px;
-    }
-    main #services .services--mkt {
-        margin: 40px ;
-    }
-    main #project .project--ecommerce {
-      display: flex;
-      margin: 0 auto;
-    }
-    #education {
-      display: flex;
-    }
-    main .contact .msj {
+    .msj input {
       width: 400px;
-      }
-    main .contact .msj input, #box-msje {
-      width: 300px;
     }
-    footer {
-      text-align: center;
-    }
+  main .contact .msj input, #box-msje {
+    width: 400px;
+  }
+  footer {
+    text-align: center;
+  }
   }
   

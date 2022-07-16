@@ -37,44 +37,47 @@ h1{
   font-weight: bold;
 }
 nav {
-  margin: 10px auto;
-}
+  width: 150px;
+  margin: 9px auto;
+  }
 nav ul{
-  justify-content: center;
   list-style: none;
 }
 nav ul li {
 
   border: 1px var(--text-front) solid;
   margin: 5px;
+  padding: 5px;
   border-radius: 10px;
-  padding: 10px;
 }
 nav ul li a {
+  padding: 5px 10px;
   color: var(--color-text);
   text-decoration: none;
 }
 nav ul li a:hover {
   color: #000527;
   border-radius: 10px      ;
-  padding: 10px;
   background-color: var(--text-front);
+  
 }
 
 
 
 main  {
-  margin: 0;
+  width: 100%;
   min-width: 288px;
 }
 #about-me {
   text-align: center;
+}
+.about-me--container {
+  border: var(--text-front) 2px solid;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 250px;
   margin: 0 auto;
 }
-
 
 main #services{
   min-width: 288px;
@@ -87,16 +90,13 @@ button{
   margin: 10px 0;
 }
 .title-box {
-  border-top: 1px solid aqua;
-  border-bottom: 1px solid aqua;
-}
+  font-size: 25px;
+  margin: 10px 0;
+  }
 main #services .services--dg {
   width: 250px;
   height: auto;
-  padding: 4px;
-  margin: 10px auto;
-  border-radius: 5px;
-  text-align: center;
+  margin: 5px auto;
   border: blueviolet 2px solid;
   padding: 10px;
 }
@@ -109,8 +109,16 @@ main #services .services--dev {
   padding-bottom: 20px;
 }
 main #services .services--mkt {
-  margin: 0px auto;
+  margin: 5px auto;
   border: cornflowerblue 2px solid;
+  width: 250px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main #services .services--language {
+  margin: 0px auto;
+  border: red 2px solid;
   width: 250px;
   height: auto;
   padding-top: 20px;
@@ -135,7 +143,11 @@ main #services .services--mkt {
   }
 .project--ecommerce {
   width: 250px;
+  border: seagreen 2px solid;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }   
 .project--ecommerce a {
   color: var(--text-front);
@@ -169,12 +181,14 @@ main #services .services--mkt {
 
 
 #contact {
-  width: 200px;
-  margin: 0 auto;
-  padding-top: 20px; 
-  padding-bottom: 20px; 
-}
+  text-align: center;
+  }
 .msj {
+  border: black 2px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 250px;
+  margin: 0 auto;
   text-align: center;
 }
 h3 {
