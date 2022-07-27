@@ -59,13 +59,13 @@
   .ed2 {
     width: 400px;
   }
-   .msj {
+  #form {
     width: 400px;
     }
-    .msj input {
+    #form input {
       width: 300px;
     }
-  main .contact .msj input, #box-msje {
+    #form #box-msje {
     width: 300px;
   }
   footer {

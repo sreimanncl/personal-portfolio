@@ -183,11 +183,12 @@ main #services .services--language {
 #contact {
   text-align: center;
   }
-.msj {
+#form {
   border: black 2px solid;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 250px;
+  height: auto;
   margin: 0 auto;
   text-align: center;
 }
@@ -195,7 +196,7 @@ h3 {
   padding: 10px;
   text-align: center;
 }
-.msj input{
+#form input{
   padding: 2px 5px;
   width: 200px;
   margin: 2px auto;
