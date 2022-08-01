@@ -37,7 +37,7 @@ h1{
   font-weight: bold;
 }
 nav {
-  width: 150px;
+  width: 100%;
   margin: 9px auto;
   }
 nav ul{
@@ -45,23 +45,21 @@ nav ul{
 }
 nav ul li {
 
-  border: 1px var(--text-front) solid;
   margin: 5px;
   padding: 5px;
   border-radius: 10px;
 }
 nav ul li a {
-  padding: 5px 10px;
+  padding: 5px 10% ;
   color: var(--color-text);
   text-decoration: none;
 }
+
 nav ul li a:hover {
   color: #000527;
   border-radius: 10px      ;
-  background-color: var(--text-front);
-  
+  background-color: var(--text-front);  
 }
-
 
 
 main  {
@@ -70,6 +68,18 @@ main  {
 }
 #about-me {
   text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  margin: 5px;
+}
+#about-me .btn a {
+  color: var(--dark-mode);
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--text-front);
 }
 .about-me--container {
   border: var(--text-front) 2px solid;
