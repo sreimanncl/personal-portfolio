@@ -52,11 +52,10 @@
     #form input {
       width: 400px;
     }
-    #form input, #box-msje {
+  #form  #box-msje {
     width: 400px;
   }
   footer {
     text-align: center;
   }
   }
-  
