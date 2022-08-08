@@ -23,7 +23,6 @@
         <nav>
           <ul>
             <li> <a href="#services">Conocimentos</a></li>
-            <li> <a href="#project">Proyectos</a></li>
             <li> <a href="#education">Estudios</a></li>
             <li> <a href="#contact">Contactame</a></li>
           </ul>
@@ -36,21 +35,25 @@
             <h2 class="title-box">Sobre mi</h2>
             <div class="about-me--container">
               <p>Hola me llamo Sebastian, <br> vivo en el pais de Chile 🇨🇱 <br>me considero  una persona autodidacta <br> con pasion por el aprendizaje <br> y el codigo web.</p>
-              <div class="btn">
-                <a href="./curriculum.html">Ver Curriculum Vitae</a>
-              </div>
+              <button class="btn-cv">
+                Ver Curriculum Vitae
+              </button>
               <p>Me puedes seguir en mis redes sociales</p>
               <section class="social-link">
                 <a href="https://github.com/sreimanncl" target="__blank">
                   <img class="github" src="/images/github.svg" alt="Github">
+
+                  <p class="social-text">Github</p>
                 </a>
                 <a href="https://www.linkedin.com/in/sreimanncl" target="__blank">
                   <img class="linkedin" src="/images/linkedin.svg" alt="Linkedin">
+                  <p class="social-text">Linkedn</p>
                 </a>
                 <a href="https://www.instagram.com/sreimanncl/"  target="__blank" >
                   <img class="instagram" src="/images/instagram.svg" alt="Instagram">
+                  <p class="social-text">Instagram</p>
                 </a>
-
+              </section>
             </div>
     
           </section>
@@ -111,48 +114,52 @@
             
             <section id="education">
               <h2 class="title-box">Mis Estudios</h2>
-
-              <div class="ed1">
-                <img src="/images/st.png" alt="logo-st">
-                <h3>2018 - 2019</h3>
-                <h4>Carrera: Diseño grafico</h4> <br>
-                <h4>Instituto profesional <br> Santo tomas</h4>
-                 <br><h5>Valdivia/Chile</h5>
+              <div class="ed-cntainer">
+                <section class="ed2">
+                      <img class="ed-logo" src="/images/github.svg" alt="Github">
+                      <h2>Platzi</h2>
+                      <h3>2020 - 2023</h3>
+                      <h4>Carrera: Desarrollo Web</h4> <br>
+                      <h4>Escuela tecnologica en linea</h4> <br>
+                      <h5>Bogota/Colombia</h5>
+                      <button class="btn-platzi">Perfil estudiante</button>
+                 </section>  
+                <section class="ed1">
+                    <img class="ed-logo" src="/images/st.png" alt="logo-santo-tomas">
+                    <h2>Santo tomas</h2>
+                    <h3>2018 - 2019</h3>
+                    <h4>Carrera: Diseño Grafico</h4> <br>
+                    <h4>Instituto profesional</h4>
+                    <br><h5>Valdivia/Chile</h5>
+                    <button class="btn-st">Visitar sitio</button>
+                </section>
               </div>
+              
 
-              <div class="ed2">
-                <a href="https://platzi.com/p/sreimanncl" target="__blank">
-                  <img src="/images/platzi.png" alt="logo-platzi">
-                </a>
-                <h3>2020 - 2022</h3>
-                <h4>Perfil: platzi.com/sreimanncl</h4> <br>
-                <h4>Escuela tecnologica en linea <br> Platzi</h4> <br>
-                <h5>Bogota/Colombia</h5>
-              </div>
             </section>
  
             <section id="contact">         
               <h2 class="title-box">Contactame</h2>
      
               <form id="form" >
-                <span>Enviame un mensaje para trabajar conmigo o hacer cotización <br> de tus proyectos. <br> </span>
+                <span>Enviame un mensaje si quieres trabajar conmigo o <br> hacer cotización de tus <br> proyectos. <br> </span>
                 
-                <label for="name"></label>
-                  <input type="text" name="names" placeholder="Nombre" autocomplete="name" required>
+                <label for="name" id="box-name"></label>
+                  <input type="text" name="names" placeholder="Nombre" autocomplete="name" required id="box-name">
                 
-                <label for="email"></label>
-                  <input type="email" name="email" id="" placeholder="correo electronico" autocomplete="email" required>
+                <label for="email" id="box-email"></label>
+                  <input type="email" name="email" id="" placeholder="correo electronico" autocomplete="email" required id="box-email">
                 
-                <label for="country"></label>
-                  <input type="text" name="country" autocomplete="country" placeholder="Nacionalidad" required> 
+                <label for="country" id="box-country"></label>
+                  <input type="text" name="country" autocomplete="country" placeholder="Nacionalidad" required id="box-country"> 
                 
                 <label for="web"></label>
                   <input type="text" placeholder="Sitio web (Opcional)" name="web" autocomplete="web" >
                 
-                <label for="msje"></label>
-                  <input type="text" id="box-msje" class="box-msje" placeholder="mensaje" name="msje" required>  
+                <label for="msje" id="box-msje"></label>
+                  <input type="text" id="box-msje" placeholder="Escribe aqui tu mensaje" name="msje" required>  
               
-                  <input type="submit" value="Enviar mensaje"  required>
+                  <input type="submit" value="Enviar mensaje"  id="box-submit">
               </form>
               
             </section>  
@@ -161,8 +168,6 @@
 
 
         <footer>
-
-          <h3>Portafolio desarrollado por Sebastian</h3>
           <a href="#header">Subir</a>
         </footer>
 

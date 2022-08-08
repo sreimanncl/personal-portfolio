@@ -54,13 +54,18 @@ nav ul li a {
   color: var(--color-text);
   text-decoration: none;
 }
-
+nav ul li a:focus-within {
+  background-color: var(--text-front);
+}
 nav ul li a:hover {
   color: #000527;
   border-radius: 10px      ;
   background-color: var(--text-front);  
 }
-
+nav ul li a:focus {
+  outline: none;
+  color: #000527;
+}
 
 main  {
   width: 100%;
@@ -70,16 +75,14 @@ main  {
   text-align: center;
 }
 
-.btn {
+.btn-cv {
   padding: 10px;
-  margin: 5px;
-}
-#about-me .btn a {
-  color: var(--dark-mode);
-  border-radius: 50px;
-  text-decoration: none;
-  padding: 10px;
-  background-color: var(--text-front);
+ background-color: var(--text-front);
+ margin: 5px;
+ color: var(--dark-mode);
+ font-weight: bold;
+ border: none;
+ border-radius: 10px;
 }
 .about-me--container {
   border: var(--text-front) 2px solid;
@@ -88,17 +91,16 @@ main  {
   width: 250px;
   margin: 0 auto;
 }
-
+.social-text {
+  color: white;
+  font-size: 11px;
+}
 main #services{
   min-width: 288px;
   text-align: center;
   padding: 20px 0;
 }
-button{
-  background-color: var(--text-front);
-  padding: 7px;
-  margin: 10px 0;
-}
+
 .title-box {
   font-size: 25px;
   margin: 10px 0;
@@ -108,7 +110,8 @@ main #services .services--dg {
   height: auto;
   margin: 5px auto;
   border: blueviolet 2px solid;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 main #services .services--dev {
   margin: 0px auto;
@@ -176,20 +179,59 @@ main #services .services--language {
   width: 250px;
   height: auto;
   border: beige solid 2px;
-  padding: 10px;
+  padding: 20px 0;
   margin: 10px auto;
   text-align: center;
 }
 .ed2 {
-  padding: 10px;
+  padding: 20px 0;
   text-align: center;
   width: 250px;
   height: auto;
   border: 2px solid green;
   margin: 5px auto;
 }
-
-
+.ed-container {
+  border: var(--text-front) 2px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 250px;
+  margin: 0 auto;}
+.ed-logo {
+  width: 100px;
+  height: 100px;
+  margin:  10px;
+}
+.btn-platzi {
+  padding: 10px;
+ background-color: green;
+ margin: 5px;
+ color: white;
+ font-weight: bold;
+ border: none;
+ border-radius: 10px;
+}
+.btn-platzi:focus {
+  outline: none;
+}
+.btn-platzi:focus-within {
+  border: solid 1px var(--text-front);
+}
+.btn-st {
+  padding: 10px;
+ background-color: antiquewhite;
+ margin: 5px;
+ color: var(--dark-mode);
+ font-weight: bold;
+ border: none;
+ border-radius: 10px;
+}
+.btn-st:focus {
+  outline: none;
+}
+.btn-st:focus-within {
+  border: solid 1px var(--text-front);
+}
 
 #contact {
   text-align: center;
@@ -211,6 +253,20 @@ h3 {
   padding: 2px 5px;
   width: 200px;
   margin: 2px auto;
+  border: none;
+
+}
+#form input:focus{
+  outline: none;
+}
+#form input:focus-within {
+  border: solid 2px var(--text-front);
+}
+#box-submit {
+  background-color: black;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
 }
 #box-msje {
   width: 200px;
@@ -238,6 +294,12 @@ footer a {
   margin: 0 auto;
   height: 100%;
   display: flex;
+}
+.social-link a:focus {
+  outline: none;
+}
+.social-link a:focus-within {
+  border: solid 1px var(--text-front);
 }
 .social-link .linkedin {
   width: 30px;
