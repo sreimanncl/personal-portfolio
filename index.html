@@ -1,176 +1,355 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portafolio personal--Sebastian Reimann</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/mobile-L.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="/css/desktop.css">
-</head>
-<body>
-      <header id="header">
-        <figure class="img">
-          <img src="./images/yo.jpg" alt="se`Sebastian Reimann">
-        </figure>
-        <h1>Sebastian Reimann</h1>
-        <h2 class="front">Desarrollador Front End</h2>
-        <nav>
-          <ul>
-            <li> <a href="#services">Conocimentos</a></li>
-            <li> <a href="#education">Estudios</a></li>
-            <li> <a href="#contact">Contactame</a></li>
-          </ul>
-        </nav>
-      </header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/mobile-L.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="/css/desktop.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img src="./images/yo.jpg" alt="se`Sebastian Reimann" />
+      <h1>Sebastian Reimann</h1>
+      <h2 class="front">Desarrollador Front End</h2>
+      <nav>
+        <ul>
+          <li><a href="#about-me">Acerca</a></li>
+          <li><a href="#services">Conocimentos</a></li>
+          <li><a href="#education">Estudios</a></li>
+          <li><a href="#contact">Contactame</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <main> 
-          
-          <section id="about-me">
-            <h2 class="title-box">Sobre mi</h2>
-            <div class="about-me--container">
-              <p>Hola me llamo Sebastian, <br> vivo en el pais de Chile 🇨🇱 <br>me considero  una persona autodidacta <br> con pasion por el aprendizaje <br> y el codigo web.</p>
-              <button class="btn-cv">
-                Ver Curriculum Vitae
-              </button>
-              <p>Me puedes seguir en mis redes sociales</p>
-              <section class="social-link">
-                <a href="https://github.com/sreimanncl" target="__blank">
-                  <img class="github" src="/images/github.svg" alt="Github">
+    <main>
+      <section id="about-me">
+        <h2 class="title-box">Acerca de mi</h2>
+        <div class="about-me--container">
+          <p>
+            Me considero
+            una persona autodidacta con pasion por el aprendizaje y el codigo
+            web.
+          </p>
+          <div id="btn-cv">
+            <button class="btn-cv-show">Ver CV</button>
+            <button class="btn-cv-download">Descargar CV</button>
+          </div>
 
-                  <p class="social-text">Github</p>
-                </a>
-                <a href="https://www.linkedin.com/in/sreimanncl" target="__blank">
-                  <img class="linkedin" src="/images/linkedin.svg" alt="Linkedin">
-                  <p class="social-text">Linkedn</p>
-                </a>
-                <a href="https://www.instagram.com/sreimanncl/"  target="__blank" >
-                  <img class="instagram" src="/images/instagram.svg" alt="Instagram">
-                  <p class="social-text">Instagram</p>
-                </a>
-              </section>
-            </div>
-    
+          <p>Me puedes seguir en mis redes sociales</p>
+          <section class="social-link">
+            <a href="https://github.com/sreimanncl" target="__blank">
+              <img class="github" src="/images/github.svg" alt="Github" />
+
+              <p class="social-text">Github</p>
+            </a>
+            <a href="https://www.linkedin.com/in/sreimanncl" target="__blank">
+              <img class="linkedin" src="/images/linkedin.svg" alt="Linkedin" />
+              <p class="social-text">Linkedn</p>
+            </a>
+            <a href="https://www.twitter.com/sreimanncl/" target="__blank">
+              <img
+                class="twitter"
+                src="/images/twitter.svg"
+                alt="twitter"
+              />
+              <p class="social-text">Twitter</p>
+            </a>
           </section>
+        </div>
+      </section>
 
-            <section id="services">
-              <h2 class="title-box">Mis conocimientos</h2>
+      <section id="services">
+        <h2 class="title-box">Mis conocimientos</h2>
 
-              <div class="services--dev">
-                <h4>Desarrollo Front End</h4> <br>
-
-                <img class="pic" src="./images/front.png" alt="foto-frontend">
-                <br>
-                <p>Html, Css y JavaScript
-                </p>
+        <div class="services--dev">
+          <h4>Desarrollo FrontEnd</h4>
+          <div>
+            <p class="title-front">Fundamentos</p>
+            <div class="skills">
+              <div>
+                <img
+                  class="picture-skills"
+                  src="./images/html.png"
+                  alt="Html"
+                />
+                Html
               </div>
-
-
-              <div class="services--dg">
-                <h4>Diseño grafico</h4> <br>
-                <img class="pic" src="./images/design.png"  alt="foto-diseño">
-                <h4>Herramentas de Adobe:</h4>
-                <p>Photoshop, Illustrator, Experience design</p>
+              <div>
+                <img
+                  class="picture-skills css"
+                  src="./images/css.png"
+                  alt="Css"
+                />
+                Css
               </div>
-
-              <div class="services--mkt">
-                <h4>MercadoTecnia</h4> <br>
-                <img class="pic" src="./images/mkt.png" alt="foto-mkting">
-                <p>S.E.O</p>
-                <p>UX/UI</p>
+              <div>
+                <img
+                  class="picture-skills js"
+                  src="./images/js.png"
+                  alt="JavaScript"
+                />
+                JavaScript
               </div>
-
-              <div class="services--language">
-                <h4>Lenguajes</h4> <br>
-                <img class="pic" src="./images/lang.png" alt="foto-lenguajes">
-                <p>Español / Nativo</p>
-                <p>Ingles / Basico</p>
+              <div>
+                <img
+                  class="picture-skills es"
+                  src="./images/css.svg"
+                  alt="EcmaScript"
+                />
+                EcmaScript <br />DOM/POO
               </div>
+            </div>
+          </div>
 
-            </section>
-
-            <section id="project">
-              <h2 class="title-box">Mis Proyectos</h2>
-
-              <div class="project--ecommerce">
-                <div class="project--img">
-                  <img src="/images/st.png" alt="logo-st">
-                </div>
-  
-                <div class="project-text">
-                  <h3>Tienda en linea</h3>
-                  <p>los conocimientos para desarrollar este sito fueron:
-                    HTML5, CSS3 con diseño responsivo para movil, tablet y desktop.</p>
-                  <button>Ver codigo</button>
-                </div>
-  
+          <div>
+            <p class="title-front">Preprocesadores</p>
+            <div class="skills">
+              <div>
+                <img class="picture-skills" src="./images/pug.png" alt="Pug" />
+                Pug
               </div>
-            </section>
-            
-            <section id="education">
-              <h2 class="title-box">Mis Estudios</h2>
-              <div class="ed-cntainer">
-                <section class="ed2">
-                      <img class="ed-logo" src="./images/platzi.png" alt="logo-platzi">
-                      <h2>Platzi</h2>
-                      <h3>2020 - 2023</h3>
-                      <h4>Carrera: Desarrollo Web</h4> <br>
-                      <h4>Escuela tecnologica en linea</h4> <br>
-                      <h5>Bogota/Colombia</h5>
-                      <button class="btn-platzi">Perfil estudiante</button>
-                 </section>  
-                <section class="ed1">
-                    <img class="ed-logo" src="/images/st.png"alt="logo-santo-tomas">
-                    <h2>Santo tomas</h2>
-                    <h3>2018 - 2019</h3>
-                    <h4>Carrera: Diseño Grafico</h4> <br>
-                    <h4>Instituto profesional</h4>
-                    <br><h5>Valdivia/Chile</h5>
-                    <button class="btn-st">Visitar sitio</button>
-                </section>
+              <div>
+                <img
+                  class="picture-skills"
+                  src="./images/sass.png"
+                  alt="Sass"
+                />
+                Sass
               </div>
-              
+            </div>
+          </div>
 
-            </section>
- 
-            <section id="contact">         
-              <h2 class="title-box">Contactame</h2>
-     
-              <form id="form" >
-                <span>Enviame un mensaje si quieres trabajar conmigo o <br> hacer cotización de tus <br> proyectos. <br> </span>
-                
-                <label for="name" id="box-name"></label>
-                  <input type="text" name="names" placeholder="Nombre" autocomplete="name" required id="box-name">
-                
-                <label for="email" id="box-email"></label>
-                  <input type="email" name="email" id="" placeholder="correo electronico" autocomplete="email" required id="box-email">
-                
-                <label for="country" id="box-country"></label>
-                  <input type="text" name="country" autocomplete="country" placeholder="Nacionalidad" required id="box-country"> 
-                
-                <label for="web"></label>
-                  <input type="text" placeholder="Sitio web (Opcional)" name="web" autocomplete="web" >
-                
-                <label for="msje" id="box-msje"></label>
-                  <input type="text" id="box-msje" placeholder="Escribe aqui tu mensaje" name="msje" required>  
-              
-                  <input type="submit" value="Enviar mensaje"  id="box-submit">
-              </form>
-              
-            </section>  
-    
-        </main>
+          <div>
+            <p class="title-front">preprocesadores</p>
+            <div class="skills">
+              <div>
+                <img
+                  class="picture-skills front"
+                  src="./images/js.svg"
+                  alt="JavaScript"
+                />
+                Pug
+              </div>
+              <div>
+                <img
+                  class="picture-skills css"
+                  src="./images/js.svg"
+                  alt="JavaScript"
+                />
+                Sass
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="services--dg">
+          <h4>Diseño grafico</h4>
+          <div>
+            <p class="title-dg">Herramientas</p>
+            <div class="skills">
+              <div>
+                <img
+                  class="picture-skills"
+                  src="./images/ps.png"
+                  alt="Photoshop"
+                />
+                Photoshop
+              </div>
+              <div>
+                <img
+                  class="picture-skills css"
+                  src="./images/it.png"
+                  alt="Illustrator"
+                />
+                Illustrator
+              </div>
+              <div>
+                <img
+                  class="picture-skills css"
+                  src="./images/xd.png"
+                  alt="Experience desing"
+                />
+                Experience desing
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <footer>
-          <a href="#header">Subir</a>
-        </footer>
+        <div class="services--mkt">
+          <h4>MercadoTecnia</h4>
+          <div>
+            <p class="title-mkt">Fundamentos</p>
+            <div class="skills">
+              <div>
+                <img
+                  class="picture-skills"
+                  src="./images/ux.png"
+                  alt="Ux & Ui"
+                />
+                Ux & Ui
+              </div>
+              <div>
+                <img
+                  class="picture-skills css"
+                  src="./images/seo.png"
+                  alt="SEO"
+                />
+                SEO
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <script src="./code.js"></script>
-</body>
+        <div class="services--language">
+          <h4>Lenguajes</h4>
+          <div>
+            <p class="title-lang">Idiomas</p>
+            <div class="skills">
+              <div>
+                <img
+                  class="picture-skills"
+                  src="./images/cl.png"
+                  alt="Español"
+                />
+                Español (Nativo)
+              </div>
+              <div>
+                <img
+                  class="picture-skills css"
+                  src="./images/en.png"
+                  alt="Ingles"
+                />
+                Ingles (Basico)
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="project">
+        <h2 class="title-box">Mis Proyectos</h2>
+
+        <div class="project--ecommerce">
+          <div class="project--img">
+            <img src="/images/st.png" alt="logo-st" />
+          </div>
+
+          <div class="project-text">
+            <h3>Tienda en linea</h3>
+            <p>
+              los conocimientos para desarrollar este sito fueron: HTML5, CSS3
+              con diseño responsivo para movil, tablet y desktop.
+            </p>
+            <button>Ver codigo</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2 class="title-box">Mis Estudios</h2>
+        <div class="ed-container">
+          <div class="ed2">
+            <img class="ed-logo" src="./images/platzi.png" alt="logo-platzi" />
+            <h2>Platzi</h2>
+            <h3>2020 - 2023</h3>
+            <h4>Carrera: Desarrollo Web</h4>
+            <br />
+            <h4>Escuela tecnologica en linea</h4>
+            <br />
+            <h5>Bogota/Colombia</h5>
+            <button class="btn-platzi">Ver Perfil</button>
+          </div>
+          <div class="ed1">
+            <img class="ed-logo" src="/images/st.png" alt="logo-santo-tomas" />
+            <h2>Santo tomas</h2>
+            <h3>2018 - 2019</h3>
+            <h4>Carrera: Diseño Grafico</h4>
+            <br />
+            <h4>Instituto profesional</h4>
+            <br />
+            <h5>Valdivia/Chile</h5>
+            <button class="btn-st">Visitar sitio</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="title-box">Contactame</h2>
+
+        <form id="form">
+          <span
+            >Enviame un mensaje si quieres trabajar conmigo o hacer cotización
+            de tus proyectos. <br />
+            <br />
+          </span>
+
+          <label for="name"></label>
+          <input
+            type="text"
+            name="names"
+            placeholder="Nombre"
+            autocomplete="name"
+            required
+            id="box-name"
+          />
+
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            placeholder="correo electronico"
+            autocomplete="email"
+            required
+            id="box-email"
+          />
+
+          <label for="country"></label>
+          <input
+            type="text"
+            name="country"
+            autocomplete="country"
+            placeholder="Nacionalidad"
+            required
+            id="box-country"
+          />
+
+          <label for="web"></label>
+          <input
+            type="text"
+            placeholder="Sitio web (Opcional)"
+            name="web"
+            autocomplete="web"
+            id="box-website"
+          />
+
+          <label for="msje"></label>
+          <input
+            type="text"
+            id="box-msje"
+            placeholder="Escribe aqui tu mensaje"
+            name="msje"
+            required
+          />
+
+          <input type="submit" value="Enviar mensaje" id="box-submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#header">Subir</a>
+    </footer>
+
+    <script src="./code.js"></script>
+  </body>
 </html>

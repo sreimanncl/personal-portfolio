@@ -1,26 +1,12 @@
 @media (min-width: 767px) {
-  header {
-    
-    padding: 20px 0;
-  }
-  nav {
-    margin: 5px auto;
+  header img {
+    width: 500px;
   }
   ul {
-    font-size: 15px;
     display: inline-block;
-  }
-  ul li {
-    margin: 0 5px;
-  }
-  main #about-me  {
-    width: 100%;
   }
   .about-me--container {
     width: 500px;
-  }
-  #services {
-    width: 100%;
   }
   main #services .services--dg {
     width: 500px;
@@ -37,9 +23,6 @@
   main #project .project--ecommerce {
     width: 500px;
   }
-  #education {
-    margin: 0;
-  }
   .ed1 {
     width: 500px;
   }
@@ -48,14 +31,11 @@
   }
   #form {
     width: 500px;
-    }
-    #form input {
-      width: 400px;
-    }
-  #form  #box-msje {
+  }
+  #form input {
     width: 400px;
   }
-  footer {
-    text-align: center;
+  #form #box-msje {
+    width: 400px;
   }
-  }
+}
