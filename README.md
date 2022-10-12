@@ -1,11 +1,6 @@
 # personal-portfolio
 portafolio personal de sebbastian reimann de chile
-con lo aprendido del desarrollo web
+con lo aprendido del desarrollo web  (FrontEnd)
 
-
-html
--semantico
--accesibildad web
-
-CSS
--media queries para mobile. mobile L, tablet y desktop
+Este sitio web esta desarrollado con los fundamentos de:
+html, CSS (diseño responsvo) y JavaScript

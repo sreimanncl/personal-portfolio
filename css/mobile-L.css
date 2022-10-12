@@ -8,16 +8,16 @@
   .about-me--container {
     width: 400px;
   }
-  main #services .services--dg {
+  main #services .dg {
     width: 400px;
   }
-  main #services .services--dev {
+  main #services .dev {
     width: 400px;
   }
-  main #services .services--mkt {
+  main #services .mkt {
     width: 400px;
   }
-  main #services .services--language {
+  main #services .language {
     width: 400px;
   }
   .picture-skills {

@@ -198,7 +198,7 @@ main #services {
   margin: 10px 0;
 }
 
-main #services .services--dg {
+main #services .dg {
   width: 250px;
   height: auto;
   margin: 5px auto;
@@ -206,14 +206,16 @@ main #services .services--dg {
   padding: 10px 0;
 }
 
-main #services .services--dev {
+main #services .dev {
   margin: 0px auto;
   border: rgb(149, 160, 127) 2px solid;
   width: 250px;
   height: auto;
   padding: 10px 0;
 }
-
+#services .services__container {
+  margin: 0 auto;
+}
 .skills {
   display: grid;
   grid-template-columns: 90px 90px;
@@ -246,7 +248,7 @@ main #services .services--dev {
   font-weight: bold;
 }
 
-main #services .services--mkt {
+main #services .mkt {
   margin: 5px auto;
   border: cornflowerblue 2px solid;
   width: 250px;
@@ -261,7 +263,7 @@ main #services .services--mkt {
   font-weight: bold;
 }
 
-main #services .services--language {
+main #services .language {
   margin: 0px auto;
   border: red 2px solid;
   width: 250px;
@@ -307,6 +309,7 @@ main #services .services--language {
 }
 
 .ed-container {
+  margin: 0 auto;
   padding: 20px 0;
   width: 100%;
 }

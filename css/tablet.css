@@ -6,28 +6,38 @@
     display: inline-block;
   }
   .about-me--container {
-    width: 500px;
+    width: 73%;
   }
-  main #services .services--dg {
-    width: 500px;
+  #services .services__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+  main #services .dev {
+    width: 73%;
   }
-  main #services .services--dev {
-    width: 500px;
+  main #services .dg {
+    width: 274px;
+    margin: 5px 5px 0 0;
   }
-  main #services .services--mkt {
-    width: 500px;
+
+  main #services .mkt {
+    width: 274px;
+    margin: 5px 0 0 5px;
   }
-  main #services .services--language {
-    width: 500px;
+
+  main #services .language {
+    width: 274px;
+    margin: 5px 0 0 0;
   }
-  main #project .project--ecommerce {
-    width: 500px;
+  .ed-container {
+    width: 73%;
+
+    display: flex;
+    justify-content: center;
   }
-  .ed1 {
-    width: 500px;
-  }
-  .ed2 {
-    width: 500px;
+  .ed1, .ed2 {
+    margin: 0  5px;
   }
   #form {
     width: 500px;

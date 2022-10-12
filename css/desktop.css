@@ -6,27 +6,13 @@
     margin: 0 5px;
   }
   .about-me--container {
-    width: 500px;
+    width: 841px;
   }
-  main #services .services--dg {
-    width: 500px;
+  main #services .dev {
+    width: 841px;
   }
-  main #services .services--dev {
-    width: 500px;
-  }
-  main #services .services--mkt {
-    width: 500px;
-  }
-  main #services .services--language {
-    width: 500px;
-  }
+
   main #project .project--ecommerce {
-    width: 500px;
-  }
-  .ed1 {
-    width: 500px;
-  }
-  .ed2 {
     width: 500px;
   }
   #form {
