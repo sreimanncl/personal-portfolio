@@ -150,37 +150,44 @@ main {
 .social-link a {
   margin: 0 5px;
 }
-
-.social-link a:focus {
+.social-link .github, .linkedin, .twitter {
+  margin: 10px 0;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 100%;
+}
+.social-link .linkedin {
+  background-color: rgb(47, 154, 254);
+}
+.social-link .twitter {
+  background-color: rgb(130, 191, 248);
+}
+.social-link .github {
+  background-color: rgb(160, 170, 182);
+}
+/* .social-link .social-link .github, .linkedin, .twitter:focus {
   outline: none;
 }
-
-.social-link a {
-  margin: 0 5px;
-}
-
-.social-link a:focus-within {
+.social-link .social-link .github, .linkedin, .twitter:focus-within {
   border: solid 1px var(--text-front);
   padding: 0 5px;
 }
-
-.social-link .linkedin {
-  width: 30px;
-  height: 30px;
-  margin: 10px 0;
+.social-link .social-link .github, .linkedin, .twitter:focus {
+  outline: none;
 }
-
-.social-link .github {
-  margin: 10px 0;
-  width: 30px;
-  height: 30px;
+.social-link .social-link .github, .linkedin, .twitter:focus-within {
+  border: solid 1px var(--text-front);
+  padding: 0 5px;
 }
-
-.social-link .twitter {
-  width: 30px;
-  height: 30px;
-  margin: 10px 0;
+.social-link .social-link .github, .linkedin, .twitter:focus {
+  outline: none;
 }
+.social-link .social-link .github, .linkedin, .twitter:focus-within {
+  border: solid 1px var(--text-front);
+  padding: 0 5px;
+} */
 
 .social-text {
   color: white;
@@ -272,7 +279,7 @@ main #services .language {
 }
 
 .title-lang {
-  background-color: red;
+  background-color:  rgb(251, 108, 108);
   margin: 5px 0;
   color: var(--dark-mode);
   font-weight: bold;
